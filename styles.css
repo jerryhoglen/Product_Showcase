@@ -1,12 +1,22 @@
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-
-
-h1,
-h2,
-h3 {
-  font-family: "Meta Pro", sans-serif;
+body {
+  font-family: "ff-meta-web-pro", sans-serif;
 }
 
 p {
-  font-family: "Tisa Pro", serif;
+  font-family: "ff-tisa-web-pro", serif;
+}
+
+
+
+
+@media only screen and (min-width: 600px) {
+}
+
+@media only screen and (min-width: 960px) {
 }
