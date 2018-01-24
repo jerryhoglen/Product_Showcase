@@ -27,6 +27,8 @@
     </div>
   </nav>
 
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-angle-up fa-3x" aria-hidden="true"></i></button>
+
   <header>
     <img src="images/twopinesheroimage.png" alt="" />
   </header>
@@ -110,48 +112,48 @@
 
   <section pricing-content-section>
     <div class="pricing-section">
-    <div class="pricing pricing-1">
-      <img src="images/personalcup.png" alt="" />
-      <ul>
-        <li>starting at</li>
-        <li id="pricing-font"><strong>$25</strong></li>
-        <li>per month</li>
-      </ul>
-      <div class="pricing-background">
-        <h4>COFFEE LOVER</h4>
-        <p>This package is designed for all coffee lovers. This is ideal for home use and you will receive one bag of coffee per month. This is a rotating blend based on our sources but you can opt for a particular roast if you prefer.</p>
+      <div class="pricing pricing-1">
+        <img src="images/personalcup.png" alt="" />
+        <ul>
+          <li>starting at</li>
+          <li id="pricing-font"><strong>$25</strong></li>
+          <li>per month</li>
+        </ul>
+        <div class="pricing-background">
+          <h4>COFFEE LOVER</h4>
+          <p>This package is designed for all coffee lovers. This is ideal for home use and you will receive one bag of coffee per month. This is a rotating blend based on our sources but you can opt for a particular roast if you prefer.</p>
+        </div>
+        <a href="" class="btn">CONTACT US</a>
       </div>
-      <a href="" class="btn">CONTACT US</a>
-    </div>
 
-    <div class="pricing pricing-2">
-      <img src="images/workuse.png" alt="" />
-      <ul>
-        <li>starting at</li>
-        <li id="pricing-font"><strong>$100</strong></li>
-        <li>per month</li>
-      </ul>
-      <div class="pricing-background">
-        <h4>COFFEE FUEL</h4>
-        <p>This package is designed for you and your team. The size of your team can vary greatly so our price for this packages ranges. In this package you will receive signature coffees as well as our rotating roasts.</p>
+      <div class="pricing pricing-2">
+        <img src="images/workuse.png" alt="" />
+        <ul>
+          <li>starting at</li>
+          <li id="pricing-font"><strong>$100</strong></li>
+          <li>per month</li>
+        </ul>
+        <div class="pricing-background">
+          <h4>COFFEE FUEL</h4>
+          <p>This package is designed for you and your team. The size of your team can vary greatly so our price for this packages ranges. In this package you will receive signature coffees as well as our rotating roasts.</p>
+        </div>
+        <a href="" class="btn">CONTACT US</a>
       </div>
-      <a href="" class="btn">CONTACT US</a>
-    </div>
 
-    <div class="pricing pricing-3">
-      <img src="images/coffeeshop.png" alt="" />
-      <ul>
-        <li>starting at</li>
-        <li id="pricing-font"><strong>$500</strong></li>
-        <li>per month</li>
-      </ul>
-      <div class="pricing-background">
-        <h4>COFFEE SHOP</h4>
-        <p>This package is designed for your coffee shop business but the price can vary based on the options and needs of your business. We will discuss all the options and help with ensuring you get only what you need.</p>
+      <div class="pricing pricing-3">
+        <img src="images/coffeeshop.png" alt="" />
+        <ul>
+          <li>starting at</li>
+          <li id="pricing-font"><strong>$500</strong></li>
+          <li>per month</li>
+        </ul>
+        <div class="pricing-background">
+          <h4>COFFEE SHOP</h4>
+          <p>This package is designed for your coffee shop business but the price can vary based on the options and needs of your business. We will discuss all the options and help with ensuring you get only what you need.</p>
+        </div>
+        <a href="" class="btn">CONTACT US</a>
       </div>
-      <a href="" class="btn">CONTACT US</a>
     </div>
-  </div>
     <h3 class="notes-h3">*One of our representatives will get in contact with you during our operating hours which are 7a-7p mon-fri eastern standard time.</h3>
   </section>
 
@@ -184,28 +186,21 @@
 
   <section class="social-media-section">
     <div class="instagram-gallery">
-    <div class="image-margin">
-      <img src="images/instagram1.png"  alt="" />
+      <div class="image-margin">
+        <img src="images/instagram1.png" alt="" />
+      </div>
+      <div class="image-margin">
+        <img src="images/instagram2.png" alt="" />
+      </div>
+      <div class="image-margin">
+        <img src="images/instagram3.png" alt="" />
+      </div>
+      <div class="image-margin">
+        <img src="images/instagram4.png" alt="" />
+      </div>
     </div>
-    <div class="image-margin">
-      <img src="images/instagram2.png"  alt="" />
-    </div>
-    <div class="image-margin">
-      <img src="images/instagram3.png"  alt="" />
-    </div>
-    <div class="image-margin">
-      <img src="images/instagram4.png"  alt="" />
-    </div>
-  </div>
-  <h3 class="notes-h3">*Use the <span class="quote-color">#twopinescoffee</span> hashtag to get featured on our site!</h3>
+    <h3 class="notes-h3">*Use the <span class="quote-color">#twopinescoffee</span> hashtag to get featured on our site!</h3>
   </section>
-
-
-
-
-
-
-
 
   <footer>
     <div class="footer-left">
@@ -221,6 +216,29 @@
         <li><a href="">Contact Us</a></li>
     </div>
   </footer>
+
+  <script>
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {
+      scrollFunction()
+    };
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+      } else {
+        document.getElementById("myBtn").style.display = "none";
+      }
+    }
+  </script>
+<script>
+  $(function(){
+    $("#myBtn").click(function(e){
+        e.preventDefault();
+        $("html, body").animate({"scrollTop": "0px"}, 800);
+    })
+});
+</script>
 
 </body>
 
