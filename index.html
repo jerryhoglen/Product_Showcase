@@ -50,6 +50,7 @@
       <p>We were able to acquire the land with the promise of keeping Two Pines the sustainable beautiful place it is. A portion of our profits go directly back to Two Pines and its people. We provide a fair trade coffee that uses only the cleanest and most
         efficient machines to keep the process eco friendly. Help us continue to keep the dreams of hard-working families alive and join us for a cup of Two Pines Coffee. </p>
     </div>
+
   </section>
 
   <section class="process-banner">
@@ -82,7 +83,7 @@
     </div>
     <div class="process-section-div process-margin">
       <h4>Equipment</h4>
-      <p>We cup every roast to ensure we are meeting the highest standard of coffee for our customers.It is important that every roast meets the flavor profiles that we work so hard to bring you and we make zero sacrifices. Our coffee embodies the ideals
+      <p>We cup every roast to ensure we are meeting the highest standard of coffee for our customers.It is important that every roast meets the flavor profiles that we work so hard to bring you and we make zero sacrifices. Our coffee embodies the ideal
         of the hard-working american culture and history of Two Pines.</p>
     </div>
   </section>
@@ -121,7 +122,7 @@
         </ul>
         <div class="pricing-background">
           <h4>COFFEE LOVER</h4>
-          <p>This package is designed for all coffee lovers. This is ideal for home use and you will receive one bag of coffee per month. This is a rotating blend based on our sources but you can opt for a particular roast if you prefer.</p>
+          <p>This package is designed for all coffee lovers. Perfect for home use and you will receive one bag of coffee per month. This is a rotating blend based on our sources but you can opt for a particular roast if you prefer.</p>
         </div>
         <a href="" class="btn">CONTACT US</a>
       </div>
@@ -202,6 +203,40 @@
     <h3 class="notes-h3">*Use the <span class="quote-color">#twopinescoffee</span> hashtag to get featured on our site!</h3>
   </section>
 
+  <section class="contact-form-section">
+    <div class="form">
+      <h2>CONTACT US</h2>
+      <div class="form-group">
+        <input type="text" class="form-control" value="" placeholder="Name" id="contact-name" />
+        <label class="input-field-icon icon-user" for="login-name"></label>
+      </div>
+
+      <div class="form-group">
+        <input type="text" class="form-control" value="" placeholder="Phone Number (optional)" id="contact-name" />
+        <label class="input-field-icon icon-user" for="login-name"></label>
+      </div>
+
+      <div class="form-group">
+        <input type="email" class="form-control" value="" placeholder="Email" id="contact-email" />
+        <label class="input-field-icon icon-email" for="login-email"></label>
+      </div>
+
+      <div class="form-group">
+        <textarea class="form-control" value="" placeholder="Message" id="contact-message" rows="1"></textarea>
+      </div>
+
+      <button id="contact-send" class="btn btn-primary btn-lg btn-block">Send</button>
+    </div>
+  </section>
+
+  <section class="social-icon-section">
+    <ul>
+      <li><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></li>
+      <li><i class="fa fa-twitter fa-3x" aria-hidden="true"></i></li>
+      <li><i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i></li>
+    </ul>
+  </section>
+
   <footer>
     <div class="footer-left">
       <ul>
@@ -231,15 +266,17 @@
       }
     }
   </script>
-<script>
-  $(function(){
-    $("#myBtn").click(function(e){
+  <script>
+    $(function() {
+      $("#myBtn").click(function(e) {
         e.preventDefault();
-        $("html, body").animate({"scrollTop": "0px"}, 800);
-    })
-});
-</script>
-
+        $("html, body").animate({
+          "scrollTop": "0px"
+        }, 800);
+      })
+    });
+  </script>
+  <script src="script.js"></script>
 </body>
 
 </html>
