@@ -201,7 +201,7 @@ nav li a:hover {
 }
 
 #subscribe {
-  padding-left: 30%;
+  padding-left: 25%;
 }
 
 .enteremail {
@@ -211,19 +211,20 @@ nav li a:hover {
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 1px;
-  width: 40%;
+  width: 50%;
   outline: none;
   background-color: #FFFFFF;
   color: #FFFFFF;
   font-size: 13px;
   font-weight: 400;
+  border: 1px solid #ffffff;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
 .signup-button {
-  width: 10%;
+  width: 15%;
   font-family: "ff-meta-web-pro", sans-serif;
   height: 55px;
   /* background-color: rgba(22, 182, 234, 0.52); */
@@ -271,6 +272,7 @@ label.error i {
 }
 
 .pricing-section {
+  width: 100vw;
   margin: 0 auto;
   display: inline-flex;
   max-width: 960px;
@@ -322,6 +324,13 @@ label.error i {
   color: #ffffff
 }
 
+.notes-h3 {
+  text-align: center;
+  padding-top: 20px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
 .packaging-banner {
   text-align: center;
   padding: 100px 0 50px 0;
@@ -351,6 +360,43 @@ label.error i {
   color: #A24743;
   border-bottom: 4px solid #C6CBD4;
   padding-bottom: 10px;
+}
+
+.instagram-banner {
+  background-image: url("images/socialmediabanner.png");
+  height: 175px;
+  margin-bottom: 100px;
+}
+
+.instagram-banner h2 {
+  vertical-align: middle;
+  text-align: center;
+  line-height: 175px;
+  color: #FFFFFF;
+}
+
+.social-media-section {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
+.instagram-gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 0 auto;
+}
+
+.image-margin {
+  margin: 0 auto;
+}
+
+.social-media-section img {
+  width: 25vw;
+  padding: 10px;
 }
 
 footer {
