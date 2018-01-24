@@ -10,6 +10,19 @@ body {
 
 p {
   font-family: "ff-tisa-web-pro", serif;
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 2.25rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h4 {
+  font-size: 1.75rem;
 }
 
 nav {
@@ -58,6 +71,286 @@ nav li a:hover {
 
 .nav-footer-spacing {
   padding-right: 25px;
+}
+
+.quote-1 {
+  padding: 100px 0;
+  text-align: justify;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.quote-1 h3 {
+  text-align: justify;
+  padding-left: 60%;
+  font-family: "ff-tisa-web-pro", serif;
+  font-weight: normal;
+  font-size: 22px;
+}
+
+.quote-color {
+  color: #407056;
+}
+
+.our-story {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.coffeeroaster-img-div {
+  grid-column: 1;
+}
+
+.our-story-div  {
+  grid-column: 2;
+  padding-left: 5vw;
+  width: 40vw;
+}
+
+.our-story-div h4 {
+  text-align: center;
+  color: #A24743;
+  border-bottom: 4px solid #C6CBD4;
+  padding-bottom: 10px;
+}
+
+.our-story-div p {
+  padding-top: 20px;
+}
+
+.process-banner {
+  background-image: url("images/theprocessbanner.png");
+  height: 175px;
+  margin: 100px 0;
+}
+
+.process-banner h2 {
+  vertical-align: middle;
+  text-align: center;
+  line-height: 175px;
+  color: #FFFFFF;
+}
+
+.process-section  {
+  width: 100vw;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.process-section img {
+  width: 50vw;
+}
+
+.process-left-img {
+  grid-column: 1;
+}
+
+.process-section-div {
+  grid-column: 2;
+  padding-left: 5vw;
+  width: 40vw
+}
+
+.process-section-div h4 {
+  text-align: center;
+  border-bottom: 4px solid #C6CBD4;
+  padding-bottom: 10px;
+}
+
+.process-section-div p {
+  padding-top: 20px;
+}
+
+.process-right-img {
+  width: 50vw;
+  margin-top: 50px;
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.process-section-div-right {
+  margin-top: 50px;
+  grid-column: 1;
+  grid-row: 2;
+  padding-left: 5vw;
+  width: 40vw
+}
+
+.process-section-div-right h4 {
+  text-align: center;
+  border-bottom: 4px solid #C6CBD4;
+  padding-bottom: 10px;
+}
+
+.process-section-div-right p {
+  padding-top: 20px;
+}
+
+.process-margin {
+  margin-top: 50px;
+}
+
+.feature-input {
+  background-color: #EAEAEA;
+  padding: 40px 0;
+  margin-top: 100px;
+}
+
+.feature-input h3 {
+  padding-top: 10px;
+}
+
+#subscribe {
+  padding-left: 30%;
+}
+
+.enteremail {
+  font-family: "ff-meta-web-pro", sans-serif;
+  height: 58px;
+  word-spacing: 1px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 1px;
+  width: 40%;
+  outline: none;
+  background-color: #FFFFFF;
+  color: #FFFFFF;
+  font-size: 13px;
+  font-weight: 400;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.signup-button {
+  width: 10%;
+  font-family: "ff-meta-web-pro", sans-serif;
+  height: 55px;
+  /* background-color: rgba(22, 182, 234, 0.52); */
+  background-color: #A24743;
+  /* background-color: #303e49; */
+  border: none;
+  outline: none;
+  position: relative;
+  float: none;
+  font-size: 14px;
+  border-radius: 0px;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 1);
+  border: none;
+  cursor: pointer;
+  z-index: 100;
+}
+label.subscribe-message {
+  height: 2.5em;
+  padding: 10px 20px;
+  color: #fff;
+  font-size: 13px;
+  float: none;
+  top: 0;
+  display: block;
+}
+label.subscribe-message{
+  display: none;
+}
+label.error i {
+  color: #16b6ea;
+}
+
+.how-it-works-banner {
+  background-image: url("images/howitworksbanner.png");
+  height: 175px;
+  margin-bottom: 100px;
+}
+
+.how-it-works-banner h2 {
+  vertical-align: middle;
+  text-align: center;
+  line-height: 175px;
+  color: #FFFFFF;
+}
+
+.pricing-section {
+  margin: 0 auto;
+  display: inline-flex;
+  max-width: 960px;
+  padding: 0 12vw;
+}
+
+.pricing-section ul {
+  text-align: center;
+  padding: 20px;
+}
+
+.pricing-section li {
+  list-style-type: none;
+  font-size: 1rem;
+}
+
+#pricing-font {
+  font-size: 3rem;
+}
+
+.pricing-section h4 {
+  text-align: center;
+}
+
+.pricing {
+  padding: 0 50px;
+}
+
+.pricing-background {
+  background-color: #EAEAEA;
+  padding: 25px;
+}
+
+.btn {
+  font-family: "ff-meta-web-pro", sans-serif;
+  color: #ffffff;
+  font-size: 15px;
+  background: #A24743;
+  padding: 10px 5px 10px 5px;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+.btn:hover {
+  background: #1B3153;
+  text-decoration: none;
+  color: #ffffff
+}
+
+.packaging-banner {
+  text-align: center;
+  padding: 100px 0 50px 0;
+}
+
+.packaging-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.packaging-img {
+  grid-column: 1;
+}
+
+.packaging-div  {
+  grid-column: 2;
+  padding-left: 5vw;
+  width: 40vw;
+}
+
+.packaging-img img {
+  width: 50vw;
+}
+
+.packaging-div h4 {
+  text-align: center;
+  color: #A24743;
+  border-bottom: 4px solid #C6CBD4;
+  padding-bottom: 10px;
 }
 
 footer {
