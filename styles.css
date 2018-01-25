@@ -57,12 +57,9 @@ nav {
   background-color: #555;
 }
 
-nav p a {
-  font-size: 1rem;
-}
-
 nav li {
   list-style-type: none;
+  font-weight: bold;
 }
 
 nav li a {
@@ -85,7 +82,7 @@ nav li a:hover {
 }
 
 .nav-right ul li {
-  font-size: 1rem;
+  font-size: 1.2rem;
   text-transform: uppercase;
 }
 
@@ -125,7 +122,7 @@ nav li a:hover {
   width: 50vw;
 }
 
-.our-story-div  {
+.our-story-div {
   grid-column: 2;
   grid-row: 1;
   padding-left: 5vw;
@@ -156,7 +153,7 @@ nav li a:hover {
   color: #FFFFFF;
 }
 
-.process-section  {
+.process-section {
   width: 100vw;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -258,6 +255,7 @@ nav li a:hover {
   border: none;
   outline: none;
   position: relative;
+  transition: all .5s;
   float: none;
   font-size: 14px;
   border-radius: 0px;
@@ -267,6 +265,11 @@ nav li a:hover {
   cursor: pointer;
   z-index: 100;
 }
+
+.signup-button:hover {
+  background-color: #1B3153;
+}
+
 label.subscribe-message {
   height: 2.5em;
   padding: 10px 20px;
@@ -276,9 +279,11 @@ label.subscribe-message {
   top: 0;
   display: block;
 }
-label.subscribe-message{
+
+label.subscribe-message {
   display: none;
 }
+
 label.error i {
   color: #16b6ea;
 }
@@ -347,6 +352,7 @@ label.error i {
   font-size: 15px;
   background: #A24743;
   padding: 10px 5px 10px 5px;
+  transition: all .5s;
   text-decoration: none;
   text-align: center;
   display: block;
@@ -380,7 +386,7 @@ label.error i {
   grid-column: 1;
 }
 
-.packaging-div  {
+.packaging-div {
   grid-column: 2;
   padding-left: 5vw;
   width: 40vw;
@@ -435,7 +441,7 @@ label.error i {
 }
 
 .form {
-  width: 500px;
+  width: 600px;
   margin: auto;
   background: white;
   border-radius: 3px;
@@ -453,7 +459,7 @@ label.error i {
   box-shadow: 0;
   border: none;
   background-color: #A24743;
-  border-color: #48c9b0;
+  border-color: #1B3153;
   color: #ffffff;
   outline: none;
   -webkit-font-smoothing: subpixel-antialiased;
@@ -462,6 +468,7 @@ label.error i {
   font-size: 17px;
   line-height: 1.471;
   width: 30%;
+  cursor: pointer;
   text-transform: uppercase;
   margin: auto;
   margin-top: 1.44em;
@@ -470,7 +477,7 @@ label.error i {
 }
 
 .btn-primary:hover {
-  background-color: #1ABC9C;
+  background-color: #1B3153;
 }
 
 .form-group {
@@ -495,7 +502,7 @@ label.error i {
   border-bottom: 2px solid #bdc3c7;
   border-radius: 0;
   background: white;
-  font-size: 15px;
+  font-size: 18px;
   line-height: 1.467;
   padding: 4px;
   height: 42px;
@@ -505,17 +512,18 @@ label.error i {
 input, textarea {
   transition: all 800ms;
   font-family: "ff-tisa-web-pro", serif;
-  resize: none;  /* removes the resize handle */
-  overflow: auto; /* removes default scrolling bars in IE */
-  outline:none;
-  font-family:inherit;
-  box-sizing:border-box;
+  resize: none;
+  /* removes the resize handle */
+  overflow: auto;
+  /* removes default scrolling bars in IE */
+  outline: none;
+  font-family: inherit;
+  box-sizing: border-box;
   width: 100%;
   padding: 0px 4px;
   color: #A24743;
   margin-top: 1.25em;
 }
-
 
 .has-error input, .has-error textarea {
   color: #e74c3c;
@@ -527,20 +535,20 @@ input, textarea {
 }
 
 .has-success input, .has-success textarea {
-  color: #2ecc71;
-  border-color: #2ecc71;
+  color: #1B3153;
+  border-color: #1B3153;
 }
 
 .has-success .input-field-icon {
-  color: #2ecc71;
+  color: #1B3153;
 }
 
 input:focus, textarea:focus {
-  border-color: #48c9b0;
+  border-color: #1B3153;
   color: #34495e;
 }
 
-input:focus + .input-field-icon {
+input:focus+.input-field-icon {
   color: #34495e;
 }
 
@@ -551,7 +559,7 @@ textarea.form-control {
 
 textarea.form-control:focus {
   height: 200px;
-  border-color: #48c9b0;
+  border-color: #1B3153;
 }
 
 .social-icon-section {
@@ -568,10 +576,14 @@ textarea.form-control:focus {
   padding: 0 20px 50px 20px;
 }
 
+.social-icon-section li a {
+  text-decoration: none;
+  color: #333333;
+}
 
-
-
-
+.social-icon-section li a:hover {
+  color: #A24743;
+}
 
 footer {
   max-width: 960px;
@@ -583,7 +595,8 @@ footer {
 
 footer li {
   list-style-type: none;
-  font-size: 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
 }
 
 .footer-right ul {
@@ -609,11 +622,6 @@ header img {
   width: 100vw;
 }
 
+@media only screen and (min-width: 600px) {}
 
-
-
-@media only screen and (min-width: 600px) {
-}
-
-@media only screen and (min-width: 960px) {
-}
+@media only screen and (min-width: 960px) {}
