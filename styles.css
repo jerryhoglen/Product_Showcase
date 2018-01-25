@@ -313,50 +313,101 @@ label.error i {
   color: #FFFFFF;
 }
 
-.pricing-content-section {
-  width: 100vw;
-  position: relative;
-  left: 50%;
-  right: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw;
-}
-
-.pricing-section {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 25px;
-  margin: 0 auto;
+#plan {
   max-width: 960px;
-}
-
-.pricing-section img {
-  display: block;
+  display: grid;
+  grid-template-columns: repeat(4, 15vw);
+  background-color: #f6f6f6;
+  background: -webkit-linear-gradient(left, #efefef, #e6e6e6);
+  background: -moz-linear-gradient(left, #efefef, #e6e6e6);
+  background: -ms-linear-gradient(left, #efefef, #e6e6e6);
+  background: -o-linear-gradient(left, #efefef, #e6e6e6);
   margin: 0 auto;
+  margin-bottom: 30px;
 }
 
-.pricing-section ul {
-  text-align: center;
-  padding: 20px;
-}
-
-.pricing-section li {
+#plan li {
+  padding-top: 10px;
   list-style-type: none;
-  font-size: 1rem;
+  font-size: 1.25rem;
+  color: #333333;
 }
 
-#pricing-font {
-  font-size: 3rem;
+.plan-1-img {
+  background-image: url("images/personalcup.png");
+  grid-column: 1;
+  background-size: cover;
+  height: 300px;
+  padding-top: 100px;
+  width: 250px;
 }
 
-.pricing-section h4 {
+.contain-details {
+  grid-column: 2 / span 2;
+  color: #333333;
+  padding-top: 10px;
+  padding-left: 4vw;
+}
+
+.pricing-p {
+  color: #333333;
+  text-align: justify;
+  padding-top: 10px;
+}
+
+.plan-1-img h2, p {
   text-align: center;
+  color: #FFFFFF;
 }
 
-.pricing-background {
-  background-color: #EAEAEA;
-  padding: 25px;
+.plan-2-img h2, p {
+  text-align: center;
+  color: #FFFFFF;
 }
+.plan-3-img h2, p {
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.plan-2-img {
+  background-image: url("images/workuse.png");
+  grid-column: 1;
+  background-size: cover;
+  height: 300px;
+  padding-top: 100px;
+  width: 250px;
+}
+
+.plan-3-img {
+  background-image: url("images/coffeeshop.png");
+  grid-column: 1;
+  background-size: cover;
+  height: 300px;
+  padding-top: 100px;
+  width: 250px;
+}
+
+.end .select {
+  margin: 125px 0 125px 75px;
+}
+
+.select .btn {
+  font-size: 1.25rem;
+  height: 4vw;
+  width: 20vw;
+}
+
+.title {
+  -webkit-transition: width .5s; /* For Safari 3.1 to 6.0 */
+  transition: width .5s;
+}
+
+.title:hover {
+  background-color: #d63240;
+  width: 260px;
+}
+
+
 
 .btn {
   font-family: "ff-meta-web-pro", sans-serif;
@@ -389,7 +440,7 @@ label.error i {
   padding: 100px 0 50px 0;
 }
 
-.packaging-img  img{
+.packaging-img img {
   width: 100vw;
 }
 
