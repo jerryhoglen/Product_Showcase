@@ -110,6 +110,10 @@ nav li a:hover {
   padding-bottom: 10px;
 }
 
+.our-story-div p {
+  color: #333333;
+}
+
 .pine-branch-img {
   width: 800px;
 }
@@ -193,6 +197,7 @@ nav li a:hover {
 
 .process-section-div p {
   padding-top: 10px;
+  color: #333333;
 }
 
 .process-right-img {
@@ -218,6 +223,7 @@ nav li a:hover {
 
 .process-section-div-right p {
   padding-top: 10px;
+  color: #333333;
 }
 
 .process-margin {
@@ -458,6 +464,7 @@ label.error i {
 
 .packaging-div p {
   padding-top: 20px;
+  color: #333333;
 }
 
 .instagram-banner {
