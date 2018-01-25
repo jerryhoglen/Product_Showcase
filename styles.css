@@ -90,43 +90,14 @@ nav li a:hover {
   padding-right: 25px;
 }
 
-.quote-1 {
-  padding: 100px 0;
-  text-align: justify;
-  width: 60%;
-  margin: 0 auto;
-}
-
-.quote-1 h3 {
-  text-align: justify;
-  padding-left: 60%;
-  font-family: "ff-tisa-web-pro", serif;
-  font-weight: normal;
-  font-size: 22px;
-}
-
-.quote-color {
-  color: #407056;
-}
-
-.our-story {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-}
-
-.coffeeroaster-img-div {
-  grid-column: 1;
-}
-
-.coffeeroaster-img-div img {
-  width: 50vw;
-}
-
 .our-story-div {
-  grid-column: 2;
-  grid-row: 1;
-  padding-left: 5vw;
-  width: 40vw;
+  max-width: 800px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.our-story-padding {
+  padding-top: 20px;
 }
 
 .our-story-div h4 {
@@ -136,20 +107,50 @@ nav li a:hover {
   padding-bottom: 10px;
 }
 
-.our-story-div p {
+.quote-section-border {
+  margin: 0 auto;
   padding-top: 20px;
+  max-width: 960px;
+}
+
+.quote-1 {
+  padding: 100px 0 0 0;
+  margin: 0 auto;
+}
+
+.quote-1 h1 {
+  font-family: "ff-meta-web-pro", sans-serif;
+  font-size: 2.2rem;
+  text-indent: -.5236em;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.quote-1 h3 {
+  font-family: "ff-tisa-web-pro", serif;
+  padding-left: 60%;
+  font-weight: normal;
+  font-size: 22px;
+}
+
+.quote-color {
+  color: #407056;
+}
+
+.quote-icon {
+  text-align: center;
 }
 
 .process-banner {
   background-image: url("images/theprocessbanner.png");
-  height: 175px;
+  height: 225px;
   margin: 100px 0;
 }
 
 .process-banner h2 {
   vertical-align: middle;
   text-align: center;
-  line-height: 175px;
+  line-height: 225px;
   color: #FFFFFF;
 }
 
@@ -170,13 +171,14 @@ nav li a:hover {
 .process-section-div {
   grid-column: 2;
   padding-left: 5vw;
-  width: 40vw
+  width: 40vw;
 }
 
 .process-section-div h4 {
   text-align: center;
   border-bottom: 4px solid #C6CBD4;
   padding-bottom: 10px;
+  line-height: 18px;
 }
 
 .process-section-div p {
@@ -202,6 +204,7 @@ nav li a:hover {
   text-align: center;
   border-bottom: 4px solid #C6CBD4;
   padding-bottom: 10px;
+  line-height: 18px;
 }
 
 .process-section-div-right p {
@@ -290,14 +293,14 @@ label.error i {
 
 .how-it-works-banner {
   background-image: url("images/howitworksbanner.png");
-  height: 175px;
-  margin-bottom: 100px;
+  height: 225px;
+  margin: 100px 0;
 }
 
 .how-it-works-banner h2 {
   vertical-align: middle;
   text-align: center;
-  line-height: 175px;
+  line-height: 225px;
   color: #FFFFFF;
 }
 
@@ -377,23 +380,14 @@ label.error i {
   padding: 100px 0 50px 0;
 }
 
-.packaging-section {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-}
-
-.packaging-img {
-  grid-column: 1;
+.packaging-img  img{
+  width: 100vw;
 }
 
 .packaging-div {
-  grid-column: 2;
-  padding-left: 5vw;
-  width: 40vw;
-}
-
-.packaging-img img {
-  width: 50vw;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 100px 0 50px 0;
 }
 
 .packaging-div h4 {
@@ -405,14 +399,15 @@ label.error i {
 
 .instagram-banner {
   background-image: url("images/socialmediabanner.png");
-  height: 175px;
-  margin-bottom: 100px;
+  background-size: cover;
+  height: 225px;
+  margin: 100px 0;
 }
 
 .instagram-banner h2 {
   vertical-align: middle;
   text-align: center;
-  line-height: 175px;
+  line-height: 225px;
   color: #FFFFFF;
 }
 
@@ -429,6 +424,7 @@ label.error i {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   margin: 0 auto;
+  width: 80vw;
 }
 
 .image-margin {
@@ -436,7 +432,7 @@ label.error i {
 }
 
 .social-media-section img {
-  width: 25vw;
+  width: 20vw;
   padding: 10px;
 }
 
