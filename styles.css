@@ -21,6 +21,10 @@ h2 {
   font-size: 2rem;
 }
 
+h3 {
+  font-size: 1.4rem;
+}
+
 h4 {
   font-size: 1.75rem;
 }
@@ -103,8 +107,11 @@ nav li a:hover {
 .our-story-div h4 {
   text-align: center;
   color: #A24743;
-  border-bottom: 4px solid #C6CBD4;
   padding-bottom: 10px;
+}
+
+.pine-branch-img {
+  width: 800px;
 }
 
 .quote-section-border {
@@ -160,6 +167,10 @@ nav li a:hover {
   grid-template-columns: repeat(4, 1fr);
 }
 
+.process-section line {
+  width: 40vw;
+}
+
 .process-section img {
   width: 50vw;
 }
@@ -176,13 +187,12 @@ nav li a:hover {
 
 .process-section-div h4 {
   text-align: center;
-  border-bottom: 4px solid #C6CBD4;
   padding-bottom: 10px;
   line-height: 18px;
 }
 
 .process-section-div p {
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
 .process-right-img {
@@ -202,13 +212,12 @@ nav li a:hover {
 
 .process-section-div-right h4 {
   text-align: center;
-  border-bottom: 4px solid #C6CBD4;
   padding-bottom: 10px;
   line-height: 18px;
 }
 
 .process-section-div-right p {
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
 .process-margin {
@@ -393,8 +402,11 @@ label.error i {
 .packaging-div h4 {
   text-align: center;
   color: #A24743;
-  border-bottom: 4px solid #C6CBD4;
   padding-bottom: 10px;
+}
+
+.packaging-div p {
+  padding-top: 20px;
 }
 
 .instagram-banner {
