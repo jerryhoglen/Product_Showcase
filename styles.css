@@ -183,7 +183,6 @@ nav li a:hover {
 .process-section-div h4 {
   text-align: center;
   padding-bottom: 10px;
-  line-height: 18px;
 }
 
 .process-section-div p {
@@ -303,16 +302,7 @@ label.error i {
 }
 
 #plan {
-  max-width: 960px;
-  display: grid;
-  grid-template-columns: repeat(5, 15vw);
-  background-color: #f6f6f6;
-  background: -webkit-linear-gradient(left, #efefef, #e6e6e6);
-  background: -moz-linear-gradient(left, #efefef, #e6e6e6);
-  background: -ms-linear-gradient(left, #efefef, #e6e6e6);
-  background: -o-linear-gradient(left, #efefef, #e6e6e6);
-  margin: 0 auto;
-  margin-bottom: 30px;
+display: none;
 }
 
 #plan li {
@@ -322,6 +312,7 @@ label.error i {
 }
 
 .plan-1-img {
+  display: flex;
   background-image: url("images/personalcup.png");
   grid-column: 1;
   background-size: cover;
@@ -329,8 +320,8 @@ label.error i {
   width: 100%;
 }
 
-.title {
-  margin: auto 0;
+.pricing-div {
+  margin: auto;
 }
 
 .contain-details {
@@ -346,7 +337,6 @@ label.error i {
 }
 
 .plan-1-img h2 {
-  margin: auto 0;
   text-align: center;
   color: #FFFFFF;
 }
@@ -380,6 +370,7 @@ label.error i {
 
 .plan-2-img {
   background-image: url("images/workuse.png");
+  display: flex;
   grid-column: 1;
   background-size: cover;
   height: 100%;
@@ -388,6 +379,7 @@ label.error i {
 
 .plan-3-img {
   background-image: url("images/coffeeshop.png");
+  display: flex;
   grid-column: 1;
   background-size: cover;
   height: 100%;
@@ -409,12 +401,12 @@ label.error i {
 }
 
 .title {
-  -webkit-transition: width .5s; /* For Safari 3.1 to 6.0 */
+  -webkit-transition: width .5s;
+  /* For Safari 3.1 to 6.0 */
   transition: width .5s;
 }
 
 .title:hover {
-  background-color: #d63240;
   width: 260px;
 }
 
@@ -471,7 +463,6 @@ label.error i {
 }
 
 .packaging-div object {
-  width: 90%;
   display: block;
   margin: 0 auto;
 }
@@ -501,7 +492,7 @@ label.error i {
 
 .instagram-gallery {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: 1fr;
   margin: 0 auto;
   width: 80vw;
 }
@@ -510,17 +501,17 @@ label.error i {
   margin: 0 auto;
 }
 
-image-hover:hover {
+.image-hover:hover {
   opacity: .5;
 }
 
 .social-media-section img {
-  width: 20vw;
+  width: 80vw;
   padding: 10px;
 }
 
 .form {
-  width: 600px;
+  width: 90vw;
   margin: auto;
   background: white;
   border-radius: 3px;
@@ -632,12 +623,12 @@ input:focus+.input-field-icon {
 }
 
 textarea.form-control {
-  height: 120px;
+  height: 10vw;
   transition: .6s;
 }
 
 textarea.form-control:focus {
-  height: 200px;
+  height: 20vw;
   border-color: #1B3153;
 }
 
@@ -665,7 +656,7 @@ textarea.form-control:focus {
 }
 
 footer {
-  max-width: 960px;
+  width: 100%;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -679,8 +670,7 @@ footer li {
 }
 
 .footer-right ul {
-  display: inline-flex;
-  justify-content: space-between;
+  display: block;
 }
 
 footer li a {
@@ -704,7 +694,6 @@ header img {
 @media only screen and (min-width: 600px) {}
 
 @media only screen and (min-width: 960px) {
-
   nav {
     max-width: 960px;
     margin: 0 auto;
@@ -712,15 +701,12 @@ header img {
     display: flex;
     justify-content: space-between;
   }
-
   .nav-right ul {
     display: inline-flex;
   }
-
   .logo-size {
     width: 50%;
   }
-
   #myBtn {
     display: none;
     position: fixed;
@@ -736,7 +722,6 @@ header img {
     width: 50px;
     border-radius: 50%;
   }
-
   #myBtn:hover {
     background-color: #555;
   }
@@ -747,7 +732,6 @@ header img {
   .nav-right ul li {
     font-size: 1.2rem;
   }
-
   .nav-footer-spacing {
     padding-right: 25px;
   }
@@ -786,28 +770,23 @@ header img {
   .process-section img {
     width: 50vw;
   }
-
   .process-left-img {
     grid-column: 1;
     margin-top: -8px;
   }
-
   .process-section-div {
     margin: auto 0;
     grid-column: 2;
     padding-left: 5vw;
     width: 40vw;
   }
-
   .process-section-div h4 {
     text-align: center;
     padding-bottom: 10px;
   }
-
   .process-section-div p {
     padding-top: 10px;
   }
-
   .process-right-img {
     width: 50vw;
     margin: 0;
@@ -815,7 +794,6 @@ header img {
     grid-column: 2;
     grid-row: 2;
   }
-
   .process-section-div-right {
     margin: auto 0;
     grid-column: 1;
@@ -823,30 +801,24 @@ header img {
     padding-left: 5vw;
     width: 40vw
   }
-
   .process-section-div-right h4 {
     text-align: center;
   }
-
   .process-section-div-right p {
     padding-top: 10px;
   }
-
   .feature-input {
     padding: 40px 0;
     margin-top: 100px;
   }
-
   .feature-input h3 {
     padding-top: 10px;
     text-align: left;
   }
-
   #subscribe {
     padding-left: 25%;
-    opacity: 1.0;
+    opacity: 1.0 !important;
   }
-
   .enteremail {
     height: 58px;
     word-spacing: 1px;
@@ -855,30 +827,67 @@ header img {
     padding-top: 1px;
     width: 50%;
   }
-
   .signup-button {
     width: 15%;
     height: 55px;
   }
-
   label.subscribe-message {
     height: 2.5em;
     padding: 10px 20px;
   }
-
+  #plan {
+    max-width: 960px;
+    width: 70vw;
+    display: grid;
+    grid-template-columns: repeat(5, 15vw);
+    background-color: #f6f6f6;
+    background: -webkit-linear-gradient(left, #efefef, #e6e6e6);
+    background: -moz-linear-gradient(left, #efefef, #e6e6e6);
+    background: -ms-linear-gradient(left, #efefef, #e6e6e6);
+    background: -o-linear-gradient(left, #efefef, #e6e6e6);
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
   #plan li {
     font-size: 2rem;
   }
-
   #plan h5 {
     font-size: 1rem;
   }
-
   .packaging-div h4 {
     padding: 0;
     text-align: center;
     color: #A24743;
     padding-bottom: 10px;
   }
-
+  .social-media-section img {
+    width: 20vw;
+    padding: 10px;
+  }
+  .instagram-gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0 auto;
+    width: 80vw;
+  }
+  .form {
+    width: 60vw;
+    margin: auto;
+    background: white;
+    border-radius: 3px;
+    margin-top: 5em;
+    margin-bottom: 6em;
+    padding: 1.25em;
+  }
+  footer {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 4vw;
+  }
+  .footer-right ul {
+    display: inline-flex;
+    justify-content: space-between;
+  }
 }
