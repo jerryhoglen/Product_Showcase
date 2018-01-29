@@ -10,7 +10,8 @@ body {
 
 p {
   font-family: "ff-tisa-web-pro", serif;
-  font-size: 18px;
+  font-size: 16px;
+  padding: 0 6vw;
 }
 
 h1 {
@@ -38,7 +39,7 @@ nav {
 }
 
 .logo-size {
-  width: 50%;
+  width: 10vw;
 }
 
 #myBtn {
@@ -77,12 +78,12 @@ nav li a:hover {
 }
 
 .nav-right ul {
-  display: inline-flex;
+  display: block;
 }
 
 .nav-right {
-  padding-right: 25px;
-  padding-top: 40px;
+  padding-right: 10px;
+  padding-top: 2vw;
 }
 
 .nav-right ul li {
@@ -91,7 +92,7 @@ nav li a:hover {
 }
 
 .nav-footer-spacing {
-  padding-right: 25px;
+  padding-right: 4vw;
 }
 
 .our-story-div {
@@ -110,12 +111,10 @@ nav li a:hover {
   padding-bottom: 10px;
 }
 
-.our-story-div p {
-  color: #333333;
-}
-
 .pine-branch-img {
-  width: 800px;
+  width: 90vw;
+  display: block;
+  margin: 0 auto;
 }
 
 .quote-section-border {
@@ -131,17 +130,18 @@ nav li a:hover {
 
 .quote-1 h1 {
   font-family: "ff-meta-web-pro", sans-serif;
-  font-size: 2.2rem;
+  font-size: 1.5rem;
   text-indent: -.5236em;
+  text-align: center;
   width: 100%;
   margin: 0 auto;
 }
 
 .quote-1 h3 {
   font-family: "ff-tisa-web-pro", serif;
-  padding-left: 60%;
+  padding-left: 50%;
   font-weight: normal;
-  font-size: 22px;
+  font-size: 1rem;
 }
 
 .quote-color {
@@ -150,6 +150,7 @@ nav li a:hover {
 
 .quote-icon {
   text-align: center;
+  font-size: .5rem;
 }
 
 .process-banner {
@@ -167,26 +168,16 @@ nav li a:hover {
 
 .process-section {
   width: 100vw;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
 }
 
-.process-section line {
-  width: 40vw;
+.process-section object {
+  width: 90vw;
+  display: block;
+  margin: 0 auto;
 }
 
 .process-section img {
-  width: 50vw;
-}
-
-.process-left-img {
-  grid-column: 1;
-}
-
-.process-section-div {
-  grid-column: 2;
-  padding-left: 5vw;
-  width: 40vw;
+  width: 100vw;
 }
 
 .process-section-div h4 {
@@ -197,61 +188,53 @@ nav li a:hover {
 
 .process-section-div p {
   padding-top: 10px;
-  color: #333333;
 }
 
 .process-right-img {
-  width: 50vw;
-  margin-top: 50px;
-  grid-column: 2;
-  grid-row: 2;
+  width: 100vw;
 }
 
 .process-section-div-right {
-  margin-top: 50px;
-  grid-column: 1;
-  grid-row: 2;
-  padding-left: 5vw;
-  width: 40vw
+  width: 100vw
 }
 
 .process-section-div-right h4 {
   text-align: center;
-  padding-bottom: 10px;
-  line-height: 18px;
 }
 
 .process-section-div-right p {
   padding-top: 10px;
-  color: #333333;
 }
 
-.process-margin {
-  margin-top: 50px;
+.quote-icon-2 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.quote-section-border h1 {
+  padding: 0 6vw;
 }
 
 .feature-input {
   background-color: #EAEAEA;
-  padding: 40px 0;
-  margin-top: 100px;
 }
 
 .feature-input h3 {
-  padding-top: 10px;
+  font-size: 1.2rem;
+  text-align: center;
 }
 
 #subscribe {
-  padding-left: 25%;
+  opacity: 1.0;
 }
 
 .enteremail {
   font-family: "ff-meta-web-pro", sans-serif;
   height: 58px;
   word-spacing: 1px;
-  padding-left: 20px;
-  padding-right: 20px;
   padding-top: 1px;
-  width: 50%;
+  padding-left: 5vw;
+  width: 60%;
   outline: none;
   background-color: #FFFFFF;
   color: #FFFFFF;
@@ -264,7 +247,7 @@ nav li a:hover {
 }
 
 .signup-button {
-  width: 15%;
+  width: 25%;
   font-family: "ff-meta-web-pro", sans-serif;
   height: 55px;
   /* background-color: rgba(22, 182, 234, 0.52); */
@@ -322,7 +305,7 @@ label.error i {
 #plan {
   max-width: 960px;
   display: grid;
-  grid-template-columns: repeat(4, 15vw);
+  grid-template-columns: repeat(5, 15vw);
   background-color: #f6f6f6;
   background: -webkit-linear-gradient(left, #efefef, #e6e6e6);
   background: -moz-linear-gradient(left, #efefef, #e6e6e6);
@@ -333,7 +316,6 @@ label.error i {
 }
 
 #plan li {
-  padding-top: 10px;
   list-style-type: none;
   font-size: 1.25rem;
   color: #333333;
@@ -343,34 +325,55 @@ label.error i {
   background-image: url("images/personalcup.png");
   grid-column: 1;
   background-size: cover;
-  height: 300px;
-  padding-top: 100px;
-  width: 250px;
+  height: 100%;
+  width: 100%;
+}
+
+.title {
+  margin: auto 0;
 }
 
 .contain-details {
+  margin: auto 0;
   grid-column: 2 / span 2;
   color: #333333;
-  padding-top: 10px;
   padding-left: 4vw;
 }
 
 .pricing-p {
   color: #333333;
-  text-align: justify;
   padding-top: 10px;
 }
 
-.plan-1-img h2, p {
+.plan-1-img h2 {
+  margin: auto 0;
   text-align: center;
   color: #FFFFFF;
 }
 
-.plan-2-img h2, p {
+.plan-1-img p {
   text-align: center;
   color: #FFFFFF;
 }
-.plan-3-img h2, p {
+
+.plan-2-img h2 {
+  margin: auto 0;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.plan-2-img p {
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.plan-3-img h2 {
+  margin: auto 0;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.plan-3-img p {
   text-align: center;
   color: #FFFFFF;
 }
@@ -379,28 +382,30 @@ label.error i {
   background-image: url("images/workuse.png");
   grid-column: 1;
   background-size: cover;
-  height: 300px;
-  padding-top: 100px;
-  width: 250px;
+  height: 100%;
+  width: 100%;
 }
 
 .plan-3-img {
   background-image: url("images/coffeeshop.png");
   grid-column: 1;
   background-size: cover;
-  height: 300px;
-  padding-top: 100px;
-  width: 250px;
+  height: 100%;
+  width: 100%;
+}
+
+.end {
+  margin: auto 0;
+  grid-column: 4 / span 2;
+  padding: 10vw;
 }
 
 .end .select {
-  margin: 125px 0 125px 75px;
+  margin: auto 0;
 }
 
 .select .btn {
   font-size: 1.25rem;
-  height: 4vw;
-  width: 20vw;
 }
 
 .title {
@@ -412,8 +417,6 @@ label.error i {
   background-color: #d63240;
   width: 260px;
 }
-
-
 
 .btn {
   font-family: "ff-meta-web-pro", sans-serif;
@@ -459,12 +462,18 @@ label.error i {
 .packaging-div h4 {
   text-align: center;
   color: #A24743;
-  padding-bottom: 10px;
+  padding: 0 6vw;
 }
 
 .packaging-div p {
   padding-top: 20px;
   color: #333333;
+}
+
+.packaging-div object {
+  width: 90%;
+  display: block;
+  margin: 0 auto;
 }
 
 .instagram-banner {
@@ -499,6 +508,10 @@ label.error i {
 
 .image-margin {
   margin: 0 auto;
+}
+
+image-hover:hover {
+  opacity: .5;
 }
 
 .social-media-section img {
@@ -690,4 +703,182 @@ header img {
 
 @media only screen and (min-width: 600px) {}
 
-@media only screen and (min-width: 960px) {}
+@media only screen and (min-width: 960px) {
+
+  nav {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 30px 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .nav-right ul {
+    display: inline-flex;
+  }
+
+  .logo-size {
+    width: 50%;
+  }
+
+  #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #A24743;
+    color: #FFFFFF;
+    cursor: pointer;
+    padding: 10px;
+    width: 50px;
+    border-radius: 50%;
+  }
+
+  #myBtn:hover {
+    background-color: #555;
+  }
+  .nav-right {
+    padding-right: 25px;
+    padding-top: 40px;
+  }
+  .nav-right ul li {
+    font-size: 1.2rem;
+  }
+
+  .nav-footer-spacing {
+    padding-right: 25px;
+  }
+  .pine-branch-img {
+    width: 800px;
+  }
+  p {
+    font-family: "ff-tisa-web-pro", serif;
+    font-size: 18px;
+    padding: 0;
+  }
+  .quote-1 {
+    width: 900px;
+  }
+  .quote-1 h1 {
+    padding: 0;
+    text-align: left;
+    font-size: 2.75rem;
+  }
+  .quote-1 h3 {
+    font-size: 22px;
+    padding-left: 60%;
+  }
+  .process-banner {
+    height: 225px;
+    margin: 100px 0;
+  }
+  .process-section {
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .process-section object {
+    width: 35vw;
+  }
+  .process-section img {
+    width: 50vw;
+  }
+
+  .process-left-img {
+    grid-column: 1;
+    margin-top: -8px;
+  }
+
+  .process-section-div {
+    margin: auto 0;
+    grid-column: 2;
+    padding-left: 5vw;
+    width: 40vw;
+  }
+
+  .process-section-div h4 {
+    text-align: center;
+    padding-bottom: 10px;
+  }
+
+  .process-section-div p {
+    padding-top: 10px;
+  }
+
+  .process-right-img {
+    width: 50vw;
+    margin: 0;
+    margin-top: -8px;
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+  .process-section-div-right {
+    margin: auto 0;
+    grid-column: 1;
+    grid-row: 2;
+    padding-left: 5vw;
+    width: 40vw
+  }
+
+  .process-section-div-right h4 {
+    text-align: center;
+  }
+
+  .process-section-div-right p {
+    padding-top: 10px;
+  }
+
+  .feature-input {
+    padding: 40px 0;
+    margin-top: 100px;
+  }
+
+  .feature-input h3 {
+    padding-top: 10px;
+    text-align: left;
+  }
+
+  #subscribe {
+    padding-left: 25%;
+    opacity: 1.0;
+  }
+
+  .enteremail {
+    height: 58px;
+    word-spacing: 1px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 1px;
+    width: 50%;
+  }
+
+  .signup-button {
+    width: 15%;
+    height: 55px;
+  }
+
+  label.subscribe-message {
+    height: 2.5em;
+    padding: 10px 20px;
+  }
+
+  #plan li {
+    font-size: 2rem;
+  }
+
+  #plan h5 {
+    font-size: 1rem;
+  }
+
+  .packaging-div h4 {
+    padding: 0;
+    text-align: center;
+    color: #A24743;
+    padding-bottom: 10px;
+  }
+
+}
