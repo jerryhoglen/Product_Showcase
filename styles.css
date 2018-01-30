@@ -155,6 +155,7 @@ nav li a:hover {
 
 .process-banner {
   background-image: url("images/theprocessbanner.png");
+  background-size: cover;
   height: 225px;
   margin: 100px 0;
 }
@@ -220,11 +221,11 @@ nav li a:hover {
 
 .feature-input h3 {
   font-size: 1.2rem;
-  text-align: center;
 }
 
 #subscribe {
   opacity: 1.0;
+  padding: 0 6vw;
 }
 
 .enteremail {
@@ -290,6 +291,7 @@ label.error i {
 
 .how-it-works-banner {
   background-image: url("images/howitworksbanner.png");
+  background-size: cover;
   height: 225px;
   margin: 100px 0;
 }
@@ -301,12 +303,13 @@ label.error i {
   color: #FFFFFF;
 }
 
-#plan {
-display: none;
+#plan h5 {
+  text-align: center;
 }
 
 #plan li {
   list-style-type: none;
+  text-align: center;
   font-size: 1.25rem;
   color: #333333;
 }
@@ -316,7 +319,7 @@ display: none;
   background-image: url("images/personalcup.png");
   grid-column: 1;
   background-size: cover;
-  height: 100%;
+  height: 200px;
   width: 100%;
 }
 
@@ -328,7 +331,7 @@ display: none;
   margin: auto 0;
   grid-column: 2 / span 2;
   color: #333333;
-  padding-left: 4vw;
+  padding-left: 5vw;
 }
 
 .pricing-p {
@@ -373,7 +376,7 @@ display: none;
   display: flex;
   grid-column: 1;
   background-size: cover;
-  height: 100%;
+  height: 200px;
   width: 100%;
 }
 
@@ -382,7 +385,7 @@ display: none;
   display: flex;
   grid-column: 1;
   background-size: cover;
-  height: 100%;
+  height: 200px;
   width: 100%;
 }
 
@@ -398,16 +401,6 @@ display: none;
 
 .select .btn {
   font-size: 1.25rem;
-}
-
-.title {
-  -webkit-transition: width .5s;
-  /* For Safari 3.1 to 6.0 */
-  transition: width .5s;
-}
-
-.title:hover {
-  width: 260px;
 }
 
 .btn {
@@ -850,9 +843,32 @@ header img {
   }
   #plan li {
     font-size: 2rem;
+    text-align: left;
   }
   #plan h5 {
     font-size: 1rem;
+    text-align: left;
+  }
+  .plan-1-img {
+    height: 100%;
+    width: 220px;
+  }
+  .plan-2-img {
+    height: 100%;
+    width: 220px;
+  }
+
+  .plan-3-img {
+    height: 100%;
+    width: 220px;
+  }
+  .title {
+    -webkit-transition: width .5s;
+    /* For Safari 3.1 to 6.0 */
+    transition: width .5s;
+  }
+  .title:hover {
+    width: 250px;
   }
   .packaging-div h4 {
     padding: 0;
