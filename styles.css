@@ -83,11 +83,10 @@ nav li a:hover {
 
 .nav-right {
   padding-right: 10px;
-  padding-top: 2vw;
 }
 
 .nav-right ul li {
-  font-size: 1.2rem;
+  font-size: 1rem;
   text-transform: uppercase;
 }
 
@@ -392,7 +391,7 @@ label.error i {
 .end {
   margin: auto 0;
   grid-column: 4 / span 2;
-  padding: 10vw;
+  padding: 30px 50px;
 }
 
 .end .select {
@@ -658,7 +657,7 @@ footer {
 
 footer li {
   list-style-type: none;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: bold;
 }
 
@@ -857,7 +856,6 @@ header img {
     height: 100%;
     width: 220px;
   }
-
   .plan-3-img {
     height: 100%;
     width: 220px;
@@ -869,6 +867,9 @@ header img {
   }
   .title:hover {
     width: 250px;
+  }
+  .end {
+    padding: 8vw 6vw;
   }
   .packaging-div h4 {
     padding: 0;
@@ -887,7 +888,7 @@ header img {
     width: 80vw;
   }
   .form {
-    width: 60vw;
+    width: 50vw;
     margin: auto;
     background: white;
     border-radius: 3px;
