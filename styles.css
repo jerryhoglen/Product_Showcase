@@ -958,4 +958,7 @@ header img {
     display: inline-flex;
     justify-content: space-between;
   }
+  footer ul li {
+    font-size: 1.2rem;
+  }
 }
