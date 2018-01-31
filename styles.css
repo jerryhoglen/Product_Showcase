@@ -123,7 +123,7 @@ nav li a:hover {
 }
 
 .quote-1 {
-  padding: 100px 0 0 0;
+  padding: 50px 0 0 0;
   margin: 0 auto;
 }
 
@@ -155,14 +155,14 @@ nav li a:hover {
 .process-banner {
   background-image: url("images/theprocessbanner.png");
   background-size: cover;
-  height: 225px;
-  margin: 100px 0;
+  height: 100px;
+  margin: 50px 0 20px 0;
 }
 
 .process-banner h2 {
   vertical-align: middle;
   text-align: center;
-  line-height: 225px;
+  line-height: 100px;
   color: #FFFFFF;
 }
 
@@ -178,6 +178,7 @@ nav li a:hover {
 
 .process-section img {
   width: 100vw;
+  padding: 30px 0;
 }
 
 .process-section-div h4 {
@@ -225,6 +226,7 @@ nav li a:hover {
 #subscribe {
   opacity: 1.0;
   padding: 0 6vw;
+  margin-top: 30px;
 }
 
 .enteremail {
@@ -233,7 +235,7 @@ nav li a:hover {
   word-spacing: 1px;
   padding-top: 1px;
   padding-left: 5vw;
-  width: 60%;
+  width: 70%;
   outline: none;
   background-color: #FFFFFF;
   color: #FFFFFF;
@@ -291,26 +293,30 @@ label.error i {
 .how-it-works-banner {
   background-image: url("images/howitworksbanner.png");
   background-size: cover;
-  height: 225px;
-  margin: 100px 0;
+  height: 100px;
+  margin: 50px 0 30px 0;
 }
 
 .how-it-works-banner h2 {
   vertical-align: middle;
   text-align: center;
-  line-height: 225px;
+  line-height: 100px;
   color: #FFFFFF;
 }
 
 #plan h5 {
-  text-align: center;
+  padding: 30px 6vw 0 6vw;
 }
 
 #plan li {
+  padding: 0 6vw;
   list-style-type: none;
-  text-align: center;
   font-size: 1.25rem;
   color: #333333;
+}
+
+#plan img {
+  padding-bottom: 30px;
 }
 
 .plan-1-img {
@@ -422,8 +428,7 @@ label.error i {
 }
 
 .notes-h3 {
-  text-align: center;
-  padding-top: 20px;
+  padding: 20px 6vw 0 6vw;
   max-width: 960px;
   margin: 0 auto;
 }
@@ -440,7 +445,7 @@ label.error i {
 .packaging-div {
   max-width: 800px;
   margin: 0 auto;
-  padding: 100px 0 50px 0;
+  padding: 50px 0 50px 0;
 }
 
 .packaging-div h4 {
@@ -462,14 +467,14 @@ label.error i {
 .instagram-banner {
   background-image: url("images/socialmediabanner.png");
   background-size: cover;
-  height: 225px;
-  margin: 100px 0;
+  height: 100px;
+  margin: 50px 0 30px 0;
 }
 
 .instagram-banner h2 {
   vertical-align: middle;
   text-align: center;
-  line-height: 225px;
+  line-height: 100px;
   color: #FFFFFF;
 }
 
@@ -737,6 +742,7 @@ header img {
   }
   .quote-1 {
     width: 900px;
+    padding: 100px 0;
   }
   .quote-1 h1 {
     padding: 0;
@@ -751,6 +757,9 @@ header img {
     height: 225px;
     margin: 100px 0;
   }
+  .process-banner h2 {
+    line-height: 225px;
+  }
   .process-section {
     width: 100vw;
     display: grid;
@@ -761,6 +770,7 @@ header img {
   }
   .process-section img {
     width: 50vw;
+    padding: 0;
   }
   .process-left-img {
     grid-column: 1;
@@ -810,6 +820,7 @@ header img {
   #subscribe {
     padding-left: 25%;
     opacity: 1.0 !important;
+    margin: 0;
   }
   .enteremail {
     height: 58px;
@@ -826,6 +837,19 @@ header img {
   label.subscribe-message {
     height: 2.5em;
     padding: 10px 20px;
+  }
+  .how-it-works-banner {
+    background-image: url("images/howitworksbanner.png");
+    background-size: cover;
+    height: 225px;
+    margin: 0 0 50px 0;
+  }
+
+  .how-it-works-banner h2 {
+    vertical-align: middle;
+    text-align: center;
+    line-height: 225px;
+    color: #FFFFFF;
   }
   #plan {
     max-width: 960px;
@@ -871,6 +895,17 @@ header img {
   .end {
     padding: 8vw 6vw;
   }
+  .notes-h3 {
+    text-align: center;
+    padding-top: 20px;
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  .packaging-div {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 100px 0 50px 0;
+  }
   .packaging-div h4 {
     padding: 0;
     text-align: center;
@@ -880,6 +915,19 @@ header img {
   .social-media-section img {
     width: 20vw;
     padding: 10px;
+  }
+  .instagram-banner {
+    background-image: url("images/socialmediabanner.png");
+    background-size: cover;
+    height: 225px;
+    margin: 100px 0;
+  }
+
+  .instagram-banner h2 {
+    vertical-align: middle;
+    text-align: center;
+    line-height: 225px;
+    color: #FFFFFF;
   }
   .instagram-gallery {
     display: grid;
