@@ -129,6 +129,7 @@ nav li a:hover {
 
 .quote-1 h1 {
   font-family: "ff-meta-web-pro", sans-serif;
+  line-height: 1.2;
   font-size: 1.5rem;
   text-indent: -.5236em;
   text-align: center;
@@ -137,9 +138,8 @@ nav li a:hover {
 }
 
 .quote-1 h3 {
+  padding-top: 10px;
   font-family: "ff-tisa-web-pro", serif;
-  padding-left: 60%;
-  padding-right: 6vw;
   font-weight: normal;
   font-size: 1rem;
 }
@@ -151,20 +151,15 @@ nav li a:hover {
 .quote-icon {
   text-align: center;
   font-size: .5rem;
+  background-color: #FFFFFFF;
 }
 
-.process-banner {
-  background-image: url("images/theprocessbanner.png");
-  background-size: cover;
-  height: 100px;
-  margin: 50px 0 20px 0;
-}
 
 .process-banner h2 {
-  vertical-align: middle;
+  font-size: 3rem;
   text-align: center;
-  line-height: 100px;
-  color: #FFFFFF;
+  color: #333333;
+  padding: 100px 0 50px 0;
 }
 
 .process-section {
@@ -292,17 +287,13 @@ label.error i {
 }
 
 .how-it-works-banner {
-  background-image: url("images/howitworksbanner.png");
-  background-size: cover;
-  height: 100px;
-  margin: 50px 0 30px 0;
+  margin: 50px 0 30px ;
 }
 
 .how-it-works-banner h2 {
-  vertical-align: middle;
+  font-size: 3rem;
   text-align: center;
-  line-height: 100px;
-  color: #FFFFFF;
+  color: #333333;
 }
 
 #plan h5 {
@@ -335,9 +326,9 @@ label.error i {
 
 .contain-details {
   margin: auto 0;
-  grid-column: 2 / span 2;
+  grid-column: 2 / span 3;
   color: #333333;
-  padding-left: 5vw;
+  padding: 2vw;
 }
 
 .pricing-p {
@@ -397,7 +388,7 @@ label.error i {
 
 .end {
   margin: auto 0;
-  grid-column: 4 / span 2;
+  grid-column: 4;
   padding: 30px 50px;
 }
 
@@ -466,17 +457,12 @@ label.error i {
 }
 
 .instagram-banner {
-  background-image: url("images/socialmediabanner.png");
-  background-size: cover;
-  height: 100px;
   margin: 50px 0 30px 0;
 }
 
 .instagram-banner h2 {
-  vertical-align: middle;
+  font-size: 3rem;
   text-align: center;
-  line-height: 100px;
-  color: #FFFFFF;
 }
 
 .social-media-section {
@@ -751,15 +737,7 @@ header img {
     font-size: 2.75rem;
   }
   .quote-1 h3 {
-    font-size: 22px;
-    padding-left: 60%;
-  }
-  .process-banner {
-    height: 225px;
-    margin: 50px 0 100px 0;
-  }
-  .process-banner h2 {
-    line-height: 225px;
+    font-size: 18px;
   }
   .process-section {
     width: 100vw;
@@ -840,23 +818,13 @@ header img {
     padding: 10px 20px;
   }
   .how-it-works-banner {
-    background-image: url("images/howitworksbanner.png");
-    background-size: cover;
-    height: 225px;
     margin: 0 0 50px 0;
-  }
-
-  .how-it-works-banner h2 {
-    vertical-align: middle;
-    text-align: center;
-    line-height: 225px;
-    color: #FFFFFF;
   }
   #plan {
     max-width: 960px;
-    width: 70vw;
+    width: 65vw;
     display: grid;
-    grid-template-columns: repeat(5, 15vw);
+    grid-template-columns: 20vw 15vw 15vw 15vw;
     background-color: #f6f6f6;
     background: -webkit-linear-gradient(left, #efefef, #e6e6e6);
     background: -moz-linear-gradient(left, #efefef, #e6e6e6);
@@ -875,17 +843,18 @@ header img {
     text-align: left;
     padding: 0;
   }
+  #plan .details {
+    line-height: 1;
+    padding-bottom: 5px;
+  }
   .plan-1-img {
     height: 100%;
-    width: 220px;
   }
   .plan-2-img {
     height: 100%;
-    width: 220px;
   }
   .plan-3-img {
     height: 100%;
-    width: 220px;
   }
   .title {
     -webkit-transition: width .5s;
@@ -893,10 +862,11 @@ header img {
     transition: width .5s;
   }
   .title:hover {
-    width: 250px;
+    width: 65vw;
+    z-index: 1000;
   }
   .end {
-    padding: 8vw 6vw;
+    padding: 8vw 0;
   }
   .notes-h3 {
     text-align: center;
@@ -920,17 +890,12 @@ header img {
     padding: 10px;
   }
   .instagram-banner {
-    background-image: url("images/socialmediabanner.png");
-    background-size: cover;
-    height: 225px;
-    margin: 50px 0 100px 0;
+    margin: 50px 0;
   }
 
   .instagram-banner h2 {
-    vertical-align: middle;
     text-align: center;
-    line-height: 225px;
-    color: #FFFFFF;
+    color: #333333;
   }
   .instagram-gallery {
     display: grid;
