@@ -118,8 +118,12 @@ nav li a:hover {
 
 .quote-section-border {
   margin: 0 auto;
-  padding-top: 20px;
+  margin-top: -30px;
+  padding-bottom: 30px;
+  padding-top: 30px;
   max-width: 960px;
+  border-top: solid 2px #333333;
+  border-bottom: solid 2px #333333;
 }
 
 .quote-1 {
@@ -142,10 +146,17 @@ nav li a:hover {
   font-family: "ff-tisa-web-pro", serif;
   font-weight: normal;
   font-size: 1rem;
+  padding-left: 6vw;
 }
 
 .quote-color {
   color: #407056;
+}
+
+.fa-quote-left {
+  background: #FFFFFF;
+  padding: 5px;
+  font-size: 5rem;
 }
 
 .quote-icon {
@@ -203,7 +214,7 @@ nav li a:hover {
 }
 
 .quote-icon-2 {
-  font-size: 2rem;
+  font-size: 3rem;
   text-align: center;
 }
 
@@ -727,10 +738,15 @@ header img {
     font-size: 18px;
     padding: 0;
   }
+  #quote-icon-size {
+    font-size: 3rem;
+    margin-bottom: 5px;
+  }
   .quote-1 {
     width: 900px;
     padding: 100px 0;
   }
+
   .quote-1 h1 {
     padding: 0;
     text-align: left;
@@ -738,6 +754,7 @@ header img {
   }
   .quote-1 h3 {
     font-size: 18px;
+    padding: 0;
   }
   .process-section {
     width: 100vw;
