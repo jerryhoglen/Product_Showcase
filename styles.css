@@ -167,10 +167,10 @@ nav li a:hover {
 
 
 .process-banner h2 {
-  font-size: 3rem;
+  font-size: 2.2rem;
   text-align: center;
   color: #333333;
-  padding: 0px 0 75px 0;
+  padding: 50px 0 10px 0;
 }
 
 .process-section {
@@ -302,19 +302,20 @@ label.error i {
 }
 
 .how-it-works-banner h2 {
-  font-size: 3rem;
+  font-size: 2.2rem;
   text-align: center;
   color: #333333;
 }
 
 #plan h5 {
-  padding: 30px 6vw 0 6vw;
+  padding: 10px 6vw 0 6vw;
 }
 
 #plan li {
   padding: 0 6vw;
   list-style-type: none;
   font-size: 1.7rem;
+  line-height: 1;
   color: #333333;
 }
 
@@ -344,7 +345,7 @@ label.error i {
 
 .pricing-p {
   color: #333333;
-  padding-top: 10px;
+  padding: 10px 6vw 20px 6vw;
 }
 
 .plan-1-img h2 {
@@ -443,6 +444,7 @@ label.error i {
 
 .packaging-img img {
   width: 100vw;
+  padding-bottom: 30px;
 }
 
 .packaging-div {
@@ -472,7 +474,7 @@ label.error i {
 }
 
 .instagram-banner h2 {
-  font-size: 3rem;
+  font-size: 2.2rem;
   text-align: center;
 }
 
@@ -755,6 +757,12 @@ header img {
   .quote-1 h3 {
     font-size: 18px;
     padding: 0;
+    padding-top: 10px;
+    line-height: 1.2;
+  }
+  .process-banner h2 {
+    font-size: 3rem;
+    padding-bottom: 75px;
   }
   .process-section {
     width: 100vw;
@@ -837,6 +845,9 @@ header img {
   .how-it-works-banner {
     margin: 0 0 50px 0;
   }
+  .how-it-works-banner h2 {
+    font-size: 3rem;
+  }
   #plan {
     max-width: 960px;
     width: 65vw;
@@ -863,6 +874,9 @@ header img {
   #plan .details {
     line-height: 1;
     padding-bottom: 5px;
+  }
+  .pricing-p {
+    padding: 10px 0;
   }
   .plan-1-img {
     height: 100%;
@@ -911,6 +925,7 @@ header img {
   }
 
   .instagram-banner h2 {
+    font-size: 3rem;
     text-align: center;
     color: #333333;
   }
