@@ -160,9 +160,10 @@ nav li a:hover {
 }
 
 .quote-icon {
+  font-size: .75rem;
   text-align: center;
-  font-size: .5rem;
   background-color: #FFFFFFF;
+  padding-bottom: 5px;
 }
 
 
@@ -211,11 +212,6 @@ nav li a:hover {
 
 .process-section-div-right p {
   padding-top: 10px;
-}
-
-.quote-icon-2 {
-  font-size: 3rem;
-  text-align: center;
 }
 
 .quote-section-border h1 {
