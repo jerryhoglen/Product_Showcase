@@ -121,7 +121,7 @@ nav li a:hover {
   margin-top: -30px;
   padding-bottom: 40px;
   padding-top: 30px;
-  max-width: 960px;
+  max-width: 600px;
   border-top: solid 2px #333333;
   border-bottom: solid 2px #333333;
 }
@@ -133,11 +133,12 @@ nav li a:hover {
 
 .quote-1 h1 {
   font-family: "ff-meta-web-pro", sans-serif;
-  line-height: 1.2;
+  line-height: 1;
   font-size: 1.5rem;
   text-indent: -.5236em;
   text-align: center;
   width: 100%;
+  max-width: 600px;
   margin: 0 auto;
 }
 
@@ -145,7 +146,7 @@ nav li a:hover {
   padding-top: 10px;
   font-family: "ff-tisa-web-pro", serif;
   font-weight: normal;
-  font-size: 1rem;
+  font-size: .75rem;
   padding-left: 6vw;
 }
 
@@ -171,7 +172,7 @@ nav li a:hover {
   font-size: 2.2rem;
   text-align: center;
   color: #333333;
-  padding: 50px 0 10px 0;
+  padding: 30px 0 10px 0;
 }
 
 .process-section {
@@ -195,6 +196,15 @@ nav li a:hover {
 }
 
 .process-section-div p {
+  padding-top: 10px;
+}
+
+.process-section-div-2 h4 {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.process-section-div-2 p {
   padding-top: 10px;
 }
 
@@ -427,9 +437,14 @@ label.error i {
 }
 
 .notes-h3 {
-  padding: 20px 6vw 0 6vw;
+  padding: 0 6vw 30px 6vw;
   max-width: 960px;
   margin: 0 auto;
+  font-size: 1rem;
+}
+
+.notes-padding-mobile {
+  padding-bottom: 100px;
 }
 
 #how-it-works-h3 {
@@ -515,8 +530,7 @@ label.error i {
   margin: auto;
   background: white;
   border-radius: 3px;
-  margin-top: 5em;
-  margin-bottom: 6em;
+  margin-bottom: 10px;
   padding: 1.25em;
 }
 
@@ -753,7 +767,7 @@ header img {
   }
   #quote-1-padding {
     padding: 0;
-    padding: 100px 0 50px 0;
+    padding: 100px 0 100px 0;
   }
   .quote-1 h1 {
     padding: 0;
@@ -766,14 +780,21 @@ header img {
     padding-top: 10px;
     line-height: 1.2;
   }
-  .process-banner h2 {
-    font-size: 3rem;
-    padding-bottom: 75px;
-  }
   .process-section {
     width: 100vw;
+    padding: 30px 0;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    background-color: #eaeaea;
+  }
+  .process-banner h2 {
+    font-size: 3rem;
+    padding: 0;
+    padding-bottom: 75px;
+  }
+  .process-banner {
+    grid-column: 1 / span 3;
+    grid-row: 1;
   }
   .process-section object {
     width: 35vw;
@@ -785,10 +806,12 @@ header img {
   .process-left-img {
     grid-column: 1;
     margin-top: -8px;
+    grid-row: 2;
   }
   .process-section-div {
     margin: auto 0;
     grid-column: 2;
+    grid-row: 2;
     padding-left: 5vw;
     width: 40vw;
   }
@@ -799,17 +822,24 @@ header img {
   .process-section-div p {
     padding-top: 10px;
   }
+  .process-section-div-2 h4 {
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  .process-section-div-2 p {
+    padding-top: 10px;
+  }
   .process-right-img {
     width: 50vw;
     margin: 0;
     margin-top: -8px;
     grid-column: 2;
-    grid-row: 2;
+    grid-row: 3;
   }
   .process-section-div-right {
     margin: auto 0;
     grid-column: 1;
-    grid-row: 2;
+    grid-row: 3;
     padding-left: 5vw;
     width: 40vw
   }
@@ -826,6 +856,18 @@ header img {
   .feature-input h3 {
     padding-top: 10px;
     text-align: left;
+  }
+  .process-left-img-2 {
+    grid-column: 1;
+    margin-top: -8px;
+    grid-row: 4;
+  }
+  .process-section-div-2 {
+    margin: auto 0;
+    grid-column: 2;
+    grid-row: 4;
+    padding-left: 5vw;
+    width: 40vw;
   }
   #subscribe {
     padding-left: 25%;
@@ -848,11 +890,16 @@ header img {
     height: 2.5em;
     padding: 10px 20px;
   }
+  .pricing-section {
+    background-color: #54657E;
+    padding: 30px 0;
+  }
   .how-it-works-banner {
     margin: 0 0 50px 0;
   }
   .how-it-works-banner h2 {
     font-size: 3rem;
+    color: #FFFFFF;
   }
   #plan {
     max-width: 960px;
@@ -910,20 +957,24 @@ header img {
   }
   .notes-h3 {
     text-align: center;
-    padding-top: 20px;
+    padding: 20px 0 100px 0;
     max-width: 960px;
     margin: 0 auto;
   }
   .packaging-div {
     max-width: 800px;
     margin: 0 auto;
-    padding: 100px 0 50px 0;
+    padding: 50px 0;
   }
   .packaging-div h4 {
     padding: 0;
     text-align: center;
     color: #A24743;
     padding-bottom: 10px;
+  }
+  .packaging-img img {
+    width: 100vw;
+    padding: 0;
   }
   .social-media-section img {
     width: 20vw;
@@ -949,8 +1000,6 @@ header img {
     margin: auto;
     background: white;
     border-radius: 3px;
-    margin-top: 5em;
-    margin-bottom: 6em;
     padding: 1.25em;
   }
   footer {
