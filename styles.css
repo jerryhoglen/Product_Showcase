@@ -249,7 +249,7 @@ nav li a:hover {
   word-spacing: 1px;
   padding-top: 1px;
   padding-left: 5vw;
-  width: 70%;
+  width: 65%;
   outline: none;
   background-color: #FFFFFF;
   color: #FFFFFF;
@@ -262,7 +262,7 @@ nav li a:hover {
 }
 
 .signup-button {
-  width: 25%;
+  width: 30%;
   font-family: "ff-meta-web-pro", sans-serif;
   height: 55px;
   /* background-color: rgba(22, 182, 234, 0.52); */
