@@ -12,6 +12,7 @@ p {
   font-family: "ff-tisa-web-pro", serif;
   font-size: 16px;
   padding: 0 6vw;
+  line-height: 1.4;
 }
 
 h1 {
@@ -438,7 +439,6 @@ label.error i {
 
 .notes-h3 {
   padding: 0 6vw 30px 6vw;
-  max-width: 960px;
   margin: 0 auto;
   font-size: 1rem;
 }
@@ -849,14 +849,6 @@ header img {
   .process-section-div-right p {
     padding-top: 10px;
   }
-  .feature-input {
-    padding: 40px 0;
-    margin-top: 100px;
-  }
-  .feature-input h3 {
-    padding-top: 10px;
-    text-align: left;
-  }
   .process-left-img-2 {
     grid-column: 1;
     margin-top: -8px;
@@ -868,6 +860,16 @@ header img {
     grid-row: 4;
     padding-left: 5vw;
     width: 40vw;
+  }
+  .feature-input {
+    grid-column: 1 / span 4;
+    grid-row: 5;
+    padding: 0px 0 30px 0;
+    margin-top: 100px;
+  }
+  .feature-input h3 {
+    padding-top: 10px;
+    text-align: left;
   }
   #subscribe {
     padding-left: 25%;
@@ -956,9 +958,10 @@ header img {
     padding: 8vw 0;
   }
   .notes-h3 {
-    text-align: center;
+    text-align: left;
     padding: 20px 0 100px 0;
-    max-width: 960px;
+    max-width: 700px;
+    font-size: 1.5rem;
     margin: 0 auto;
   }
   .packaging-div {
@@ -995,7 +998,12 @@ header img {
     margin: 0 auto;
     width: 80vw;
   }
+  .contact-form-section {
+    max-width: 700px;
+    margin: 0 auto;
+  }
   .form {
+    max-width: 700px;
     width: 50vw;
     margin: auto;
     background: white;
