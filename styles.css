@@ -323,7 +323,7 @@ nav li a:hover {
 }
 
 .signup-button:hover {
-  background-color: #1B3153;
+  background-color: #54657E;
 }
 
 label.subscribe-message {
@@ -345,7 +345,7 @@ label.error i {
 }
 
 .pricing-section {
-  background-color: #54657E;
+  background-color: #1B3153;
   padding-bottom: 30px;
 }
 
@@ -619,7 +619,7 @@ label.error i {
 }
 
 .btn-primary:hover {
-  background-color: #1B3153;
+  background-color: #54657E;
 }
 
 #contact-subscribe {
