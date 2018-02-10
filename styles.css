@@ -825,7 +825,7 @@ header img {
     padding: 0;
   }
   header {
-    background-image: url(../images/pinetreehero.jpg);
+    background-image: url(images/pinetreehero.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 750px;
