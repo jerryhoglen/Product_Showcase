@@ -1077,11 +1077,15 @@ header img {
     text-align: left;
     padding: 10px;
     max-width: 675px;
-    font-size: 1.2rem;
-    font-weight: 600;
+    font-size: 1rem;
+    font-weight: 400;
     margin: 0 auto;
     margin-bottom: 100px;
     background-color: #eaeaea;
+  }
+  #instagram-notes {
+    font-size: 1.2rem;
+    font-weight: 600;
   }
   .packaging-div {
     max-width: 800px;
