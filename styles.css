@@ -1017,7 +1017,7 @@ header img {
     color: #FFFFFF;
   }
   #plan {
-    max-width: 960px;
+    max-width: 1200px;
     width: 65vw;
     display: grid;
     grid-template-columns: 20vw 15vw 15vw 15vw;
